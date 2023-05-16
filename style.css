@@ -324,8 +324,19 @@ span {
   color: var(--black);
 }
 
-@media screen (min-width: 768px) {
+@media (min-width: 0px) and (max-width: 390px) {
   .container {
     margin: 0px;
+  }
+  .content {
+    padding: 10px;
+  }
+  .pic {
+    width: 100%;
+  }
+}
+@media (min-width: 391px) and (max-width: 768px) {
+  .content {
+    padding: 20px;
   }
 }
