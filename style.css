@@ -259,8 +259,10 @@
 
 .content {
   padding-left: calc(3 / 9 * 100%);
-  /* padding-left: 711px; */
-  padding-top: 185px;
+  /* padding-left: 711px;
+  padding-top: 185px; */
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 span {
@@ -272,6 +274,10 @@ span {
   object-fit: cover;
 }
 
+.hero {
+  display: flex;
+  margin-top: 24px;
+}
 .hero button {
   color: var(--white);
   background-color: var(--yellow);
@@ -281,12 +287,11 @@ span {
   justify-content: center;
   align-items: center;
   height: 40px;
-  width: 120px;
   font-size: 14px;
   cursor: pointer;
 }
 @media screen (min-width: 768px) {
   .content {
-    padding: 0;
+    padding: 50px;
   }
 }
