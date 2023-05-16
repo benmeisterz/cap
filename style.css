@@ -14,36 +14,7 @@
   box-sizing: border-box;
 }
 
-header {
-  font-family: 'roboto';
-  background-color: var(--black);
-  color: var(--white);
-}
-
-li,
-a {
-  list-style: none;
-  text-decoration: none;
-  display: inline-block;
-  padding: 1rem;
-  color: var(--white);
-  font-size: 14px;
-}
-
-a:hover,
-#ire button:hover {
-  color: var(--red);
-}
-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1440px;
-  margin: 0 auto;
-  max-height: 107px;
-}
-
-#ire button {
+#ire {
   color: var(--gray);
   background-color: var(--black);
   padding: 15px 10px;
@@ -57,22 +28,97 @@ header .container {
   cursor: pointer;
 }
 
-.logo {
+.nav {
+  height: 70px;
+  width: 100%;
+  background-color: var(--black);
+  position: relative;
+  font-family: 'Roboto';
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
   font-size: 20px;
-  font-weight: 800;
-  padding: 0;
-  padding: 0 auto;
+  color: var(--white);
+  padding: 10px 10px 10px 10px;
 }
 
-.img-logo {
-  height: 50px;
-  border-radius: 50%;
+.nav > .nav-btn {
+  display: none;
 }
 
-.logo div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  font-size: 14px;
+  color: var(--white);
+}
+
+.nav > .nav-links > a:hover,
+.nav > .nav-header > .nav-title:hover {
+  color: var(--red);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
 }
 
 .container-fluid {
