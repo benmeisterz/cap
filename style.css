@@ -249,10 +249,44 @@
 
 .box1 {
   background-color: var(--yellow);
-  height: 300px;
+  align-items: center;
+  justify-content: center;
 }
 
 .box2 {
   background-color: var(--cream);
-  height: 300px;
+}
+
+.content {
+  padding-left: calc(3 / 9 * 100%);
+  /* padding-left: 711px; */
+  padding-top: 185px;
+}
+
+span {
+  color: var(--red);
+}
+
+.pic {
+  height: 20em;
+  object-fit: cover;
+}
+
+.hero button {
+  color: var(--white);
+  background-color: var(--yellow);
+  border: none;
+  margin-right: 10px;
+  padding: 15px 10px;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 120px;
+  font-size: 14px;
+  cursor: pointer;
+}
+@media screen (min-width: 768px) {
+  .content {
+    padding: 0;
+  }
 }
