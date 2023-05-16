@@ -324,7 +324,7 @@ span {
   color: var(--black);
 }
 
-@media (min-width: 0px) and (max-width: 390px) {
+@media (max-width: 768px) {
   .container {
     margin: 0px;
   }
@@ -335,8 +335,11 @@ span {
     width: 100%;
   }
 }
-@media (min-width: 391px) and (max-width: 768px) {
+@media (max-width: 992px) {
   .content {
     padding: 20px;
+  }
+  .pic {
+    width: 100%;
   }
 }
