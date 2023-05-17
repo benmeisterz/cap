@@ -366,9 +366,7 @@
 }
 
 .content {
-  padding-left: calc(3 / 9 * 100%);
-  /* padding-left: 711px;
-  padding-top: 185px; */
+  padding-left: 20px;
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -393,7 +391,7 @@ span {
   letter-spacing: -0.025em;
   text-transform: capitalize;
 }
-.content p {
+p {
   color: var(--gray);
   max-width: 526px;
   font-family: 'roboto';
@@ -479,4 +477,33 @@ h2 {
 
 h2 span {
   color: var(--red);
+}
+
+p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 175%;
+  color: #9dafbd;
+  margin-bottom: 16px;
+}
+
+#check {
+  background-color: var(--yellow);
+  color: white;
+  padding: 5px 5px;
+  margin-right: 20px;
+}
+
+h3 {
+  font-family: 'roboto';
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#checkp {
+  margin-left: 44px;
+  margin-top: 16px;
+  padding-top: 0;
 }
