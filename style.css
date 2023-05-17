@@ -565,21 +565,42 @@ main .container {
   margin-top: 0;
 }
 
+.card {
+  width: 296px;
+}
+
 .card > img {
   height: 197px;
-  width: 312px;
+  width: 100%;
+  width: auto;
   object-fit: cover;
 }
 
 .card-body {
-  width: 312px;
+  /* max-width: 312px; */
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-body > button {
-  width: 280px;
+  display: flex;
+  color: var(--white);
+  background-color: var(--yellow);
+  border: none;
+  padding: 15px 70px;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 14px;
+  cursor: pointer;
+  background: var(--yellow);
+  border: 1px solid var(--yellow);
+  box-shadow: 0px 10px 30px rgba(255, 178, 44, 0.3);
 }
 
 .col-md-4:nth-of-type(2) button {
