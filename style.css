@@ -566,13 +566,13 @@ main .container {
 }
 
 .card {
-  width: 296px;
+  margin: 0 auto;
+  max-width: 312px;
 }
 
 .card > img {
   height: 197px;
   width: 100%;
-  width: auto;
   object-fit: cover;
 }
 
