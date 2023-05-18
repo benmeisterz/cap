@@ -600,13 +600,12 @@ main .container {
   /* padding-bottom: 56.25%; */
 }
 
-@media (min-width: 400px) and (max-width: 768px) {
+@media (min-width: 300px) and (max-width: 768px) {
   .container {
     margin: 0px;
   }
   .content,
-  .provide,
-  .food {
+  .provide {
     padding: 10px;
   }
   .pic {
@@ -615,11 +614,15 @@ main .container {
   #foods {
     width: 100%;
   }
-  /* .main2 {
-    height: 5px;
-  } */
+  .main2,
+  .food1 {
+    height: 20em;
+  }
   .cards {
     padding: 0;
+  }
+  .food1 {
+    padding-left: 20px;
   }
 }
 @media (max-width: 1400px) {
