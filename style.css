@@ -624,6 +624,9 @@ main .container {
   .food1 {
     padding-left: 20px;
   }
+  .see {
+    display: none;
+  }
 }
 @media (max-width: 1400px) {
   .content,
