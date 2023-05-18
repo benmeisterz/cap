@@ -387,6 +387,7 @@ span {
 .pic {
   height: 25em;
   object-fit: cover;
+  object-position: right;
 }
 
 h1 {
@@ -627,6 +628,9 @@ main .container {
   }
   .see {
     display: none;
+  }
+  .pic {
+    object-position: calc(2 / 3 * 100%);
   }
 }
 @media (max-width: 1400px) {
