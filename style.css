@@ -590,7 +590,7 @@ main .container {
   align-items: start;
   display: flex;
   background-color: white; */
-  background-image: url('./images/chef.JPG');
+  background-image: url('./images/pexels-pixabay-262978.jpg');
   background-size: cover;
   background-position: center;
   /* width: 100%; */
@@ -600,7 +600,7 @@ main .container {
   /* padding-bottom: 56.25%; */
 }
 
-@media (max-width: 768px) {
+@media (min-width: 400px) and (max-width: 768px) {
   .container {
     margin: 0px;
   }
@@ -634,4 +634,16 @@ main .container {
   #foods {
     width: 100%;
   }
+}
+
+.center {
+  text-align: center;
+}
+
+#pad {
+  padding-top: 106px;
+}
+
+#pi {
+  text-align: center;
 }
