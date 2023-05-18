@@ -659,3 +659,11 @@ main .container {
 #con {
   margin-bottom: 0;
 }
+
+.cream {
+  background-color: var(--cream);
+}
+
+.p0 {
+  margin: 0px auto;
+}
