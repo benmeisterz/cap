@@ -615,9 +615,9 @@ main .container {
   #foods {
     width: 100%;
   }
-  .main2 {
+  /* .main2 {
     height: 5px;
-  }
+  } */
   .cards {
     padding: 0;
   }
@@ -648,4 +648,8 @@ main .container {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+#con {
+  margin-bottom: 0;
 }
