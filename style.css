@@ -644,6 +644,8 @@ main .container {
   padding-top: 106px;
 }
 
-#pi {
-  text-align: center;
+.p106 {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
