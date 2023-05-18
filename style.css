@@ -604,7 +604,7 @@ main .container {
   /* padding-bottom: 56.25%; */
 }
 
-@media (min-width: 300px) and (max-width: 768px) {
+@media (min-width: 300px) and (max-width: 767px) {
   .container {
     margin: 0px;
   }
@@ -631,8 +631,17 @@ main .container {
   .see {
     display: none;
   }
+  .ps20 {
+    padding-left: 0;
+    padding-top: 10px;
+  }
 }
 
+@media (min-width: 768px) {
+  .ps20 {
+    padding-left: 20px;
+  }
+}
 @media (max-width: 1023px) {
   .pic {
     object-position: calc(2 / 3 * 100%);
@@ -642,7 +651,9 @@ main .container {
 @media (max-width: 1400px) {
   .content,
   .provide,
-  #cards {
+  #cards,
+  .food,
+  .download {
     padding: 20px;
   }
   .pic {
