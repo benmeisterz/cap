@@ -708,3 +708,28 @@ main .container {
   margin-top: 20px;
   background-color: var(--red);
 }
+
+footer > .container {
+  background-color: var(--black);
+  padding-top: 90px;
+  padding-right: 172px;
+  padding-bottom: 71px;
+  padding-left: 170px;
+}
+
+.hetch {
+  font-size: 20px;
+  font-family: 'roboto';
+  font-weight: 800;
+  color: var(--white);
+}
+
+.soc {
+  display: flex;
+}
+
+.soc > p {
+  color: var(--white);
+  padding-right: 16px;
+  font-size: 20px;
+}
