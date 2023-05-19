@@ -590,19 +590,10 @@ main .container {
 }
 
 .food1 {
-  /* justify-content: left;
-  align-items: start;
-  display: flex;
-  background-color: white; */
   background-image: url('./images/pexels-pixabay-262978.jpg');
   background-size: cover;
   background-position: center;
-
-  /* width: 100%; */
-  /* height: 0; */
   height: 30em;
-
-  /* padding-bottom: 56.25%; */
 }
 
 @media (min-width: 300px) and (max-width: 767px) {
@@ -642,6 +633,9 @@ main .container {
   iframe {
     text-align: center;
     justify-content: center;
+  }
+  .foot {
+    padding-top: 20px;
   }
 }
 
