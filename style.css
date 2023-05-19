@@ -488,6 +488,11 @@ p {
   margin-right: 20px;
 }
 
+.check {
+  display: flex;
+  align-items: center;
+}
+
 h3 {
   font-family: 'roboto';
   font-size: 18px;
