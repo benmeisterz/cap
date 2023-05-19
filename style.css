@@ -14,26 +14,18 @@
   box-sizing: border-box;
 }
 
-#ire {
-  color: var(--gray);
-  background-color: var(--black);
-  padding: 15px 10px;
-  border: solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  width: 120px;
-  font-size: 14px;
-  cursor: pointer;
+.nav-title {
+  margin-left: 25vh;
+}
+.nav-links {
+  margin-right: 10%;
 }
 
 .nav {
-  height: 70px;
+  height: 50px;
   width: 100%;
   background-color: var(--black);
   position: relative;
-  font-family: 'Roboto';
 }
 
 .nav > .nav-header {
@@ -42,10 +34,11 @@
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
-  font-size: 20px;
   color: var(--white);
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 20px;
   padding: 10px 10px 10px 10px;
-  line-height: 60px;
 }
 
 .nav > .nav-btn {
@@ -55,20 +48,20 @@
 .nav > .nav-links {
   display: inline;
   float: right;
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'roboto';
 }
 
 .nav > .nav-links > a {
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
-  font-size: 14px;
-  color: var(--white);
+  color: #efefef;
 }
 
 .nav > .nav-links > a:hover,
-.nav > .nav-header > .nav-title:hover,
-#ire:hover {
+.nav > .nav-header > .nav-title:hover {
   color: var(--red);
 }
 
@@ -76,12 +69,32 @@
   display: none;
 }
 
+@media (min-width: 900px) {
+  .nav-title {
+    transition: margin 1s ease-in-out;
+  }
+  .nav-links {
+    transition: margin 1s ease-in-out;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav-title {
+    margin-left: 1em;
+    transition: margin 1s ease-in-out;
+  }
+  .nav-links {
+    margin-right: 1em;
+    transition: margin 1s ease-in-out;
+  }
+}
 @media (max-width: 600px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
     right: 0px;
     top: 0px;
+    z-index: 99999;
   }
   .nav > .nav-btn > label {
     display: inline-block;
@@ -109,6 +122,7 @@
     overflow-y: hidden;
     top: 50px;
     left: 0px;
+    z-index: 9999;
   }
   .nav > .nav-links > a {
     display: block;
