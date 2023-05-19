@@ -651,11 +651,14 @@ main .container {
     padding-left: 20px;
     padding-right: 20px;
   }
+  .foo1 {
+    padding-right: 20px;
+  }
 }
 @media (max-width: 1023px) {
   .pic {
     object-position: calc(2 / 3 * 100%);
-    height: 25em;
+    height: 35em;
   }
 }
 @media (max-width: 1400px) {
@@ -747,10 +750,6 @@ footer > .container-fluid {
   color: var(--white);
   padding-right: 16px;
   font-size: 20px;
-}
-
-.foo1 {
-  /* padding-right: 20px; */
 }
 
 footer > p {
