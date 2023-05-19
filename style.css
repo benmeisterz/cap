@@ -631,7 +631,8 @@ main .container {
   .see {
     display: none;
   }
-  .ps20 {
+  .ps20,
+  .down {
     padding-left: 0;
     padding-top: 10px;
   }
@@ -654,7 +655,7 @@ main .container {
   #cards,
   .food,
   .download {
-    padding: 20px;
+    padding-left: 20px;
   }
   .pic {
     width: 100%;
