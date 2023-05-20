@@ -637,6 +637,7 @@ main .container {
   }
   .food1 {
     padding-left: 20px;
+    padding-right: 20px;
   }
   .see {
     display: none;
