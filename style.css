@@ -657,6 +657,10 @@ main .container {
   .pleft {
     padding-left: 0px;
   }
+  #about {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media (min-width: 768px) {
