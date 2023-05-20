@@ -680,7 +680,7 @@ main .container {
 @media (max-width: 1400px) {
   .content,
   .provide,
-  #cards,
+  .trescards,
   .food,
   .download {
     padding-left: 20px;
