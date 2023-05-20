@@ -395,6 +395,7 @@ html {
   padding-left: 20px;
   padding-top: 90px;
   padding-bottom: 90px;
+  padding-right: 20px;
 }
 
 span {
@@ -644,6 +645,7 @@ main .container {
   .ps20,
   .down {
     padding-left: 0;
+    padding-right: 20px;
     padding-top: 10px;
   }
   footer,
@@ -662,16 +664,16 @@ main .container {
   .pleft {
     padding-left: 0px;
   }
-}
+
 
 @media (min-width: 768px) {
-  .ps20,
-  .foot {
+  .ps20
+  /* .foot { */ {
     padding-left: 20px;
     padding-right: 20px;
   }
   .foo1 {
-    padding-right: 20px;
+    padding-left: 20px;
   }
 }
 @media (max-width: 1023px) {
@@ -757,6 +759,8 @@ footer > .container-fluid {
   font-family: 'roboto';
   font-weight: 800;
   color: var(--white);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .soc {
