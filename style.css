@@ -673,7 +673,8 @@ main .container {
   .content {
     padding-bottom: 20px;
   }
-  .food1 {
+  .food1,
+  .card {
     margin-top: 20px;
   }
 }
