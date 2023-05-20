@@ -779,3 +779,7 @@ footer > p {
   line-height: 24.5px;
   /* padding-top: 24px; */
 }
+
+.pright {
+  padding-right: 20px;
+}
