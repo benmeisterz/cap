@@ -622,9 +622,6 @@ main .container {
   .container {
     margin: 0px;
   }
-  .content {
-    padding: 10px;
-  }
   .pic {
     width: 100%;
   }
@@ -661,6 +658,9 @@ main .container {
   .padd {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .pleft {
+    padding-left: 0px;
   }
 }
 
