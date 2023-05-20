@@ -661,6 +661,15 @@ main .container {
     padding-left: 20px;
     padding-right: 20px;
   }
+  .content,
+  .provide,
+  #cards,
+  #about {
+    padding-top: 20px;
+  }
+  .download {
+    padding-bottom: 20px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -710,7 +719,7 @@ main .container {
 }
 
 #pad {
-  padding-top: 106px;
+  padding-top: 20px;
 }
 
 .p106 {
@@ -726,7 +735,7 @@ main .container {
 .cream {
   background-color: var(--cream);
   padding-top: 24px;
-  padding-bottom: 104px;
+  padding-bottom: 20px;
 }
 
 .p0 {
