@@ -810,3 +810,7 @@ footer > p {
 #cont {
   margin-top: 0px;
 }
+
+.card {
+  border: solid var(--gray) 1px;
+}
