@@ -659,6 +659,10 @@ main .container {
   .foot {
     padding-top: 20px;
   }
+  .padd {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media (min-width: 768px) {
