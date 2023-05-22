@@ -612,121 +612,18 @@ main .container {
   height: 30em;
 }
 
-@media (min-width: 300px) and (max-width: 767px) {
-  .container {
-    margin: 0px;
-  }
-  .pic {
-    width: 100%;
-  }
-  #foods {
-    width: 100%;
-  }
-  .main2,
-  .food1 {
-    height: 20em;
-  }
-  .cards {
-    padding: 0;
-  }
-  .food1 {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .see {
-    display: none;
-  }
-  .ps20,
-  .down {
-    padding-left: 0;
-    padding-top: 10px;
-  }
-  footer,
-  .soc,
-  iframe {
-    text-align: center;
-    justify-content: center;
-  }
-  .foot {
-    padding-top: 20px;
-  }
-  .padd {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .pleft {
-    padding-left: 0px;
-  }
-  #about {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .content,
-  .provide,
-  #cards,
-  #about {
-    padding-top: 20px;
-  }
-  .download {
-    padding-bottom: 20px;
-  }
-  .content {
-    padding-bottom: 20px;
-  }
-  .food1,
-  .card {
-    margin-top: 20px;
-  }
+#pad {
+  padding-top: 90px;
 }
 
-@media (min-width: 768px) {
-  .ps20,
-  .foot {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .foo1 {
-    padding-right: 20px;
-  }
-  .provide,
-  main,
-  #cards,
-  .tres,
-  #home {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  #home {
-    margin-top: 0px;
-  }
-}
-@media (max-width: 1023px) {
-  .pic {
-    object-position: calc(2 / 3 * 100%);
-    height: 25em;
-  }
-}
-@media (max-width: 1400px) {
-  .content,
-  .trescards,
-  .food,
-  .download {
-    padding-left: 20px;
-  }
-  .pic {
-    width: 100%;
-  }
-  #foods {
-    width: 100%;
-  }
+.cream {
+  background-color: var(--cream);
+  padding-top: 24px;
+  padding-bottom: 90px;
 }
 
 .center {
   text-align: center;
-}
-
-#pad {
-  padding-top: 20px;
 }
 
 .p106 {
@@ -737,12 +634,6 @@ main .container {
 
 #con {
   margin-bottom: 0;
-}
-
-.cream {
-  background-color: var(--cream);
-  padding-top: 24px;
-  padding-bottom: 20px;
 }
 
 .p0 {
@@ -817,4 +708,115 @@ footer > p {
 
 .card {
   border: solid var(--gray) 1px;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .container {
+    margin: 0px;
+  }
+  .pic {
+    width: 100%;
+  }
+  #foods {
+    width: 100%;
+  }
+  .main2,
+  .food1 {
+    height: 20em;
+  }
+  .cards {
+    padding: 0;
+  }
+  .food1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .see {
+    display: none;
+  }
+  .ps20,
+  .down {
+    padding-left: 0;
+    padding-top: 10px;
+  }
+  footer,
+  .soc,
+  iframe {
+    text-align: center;
+    justify-content: center;
+  }
+  .foot {
+    padding-top: 20px;
+  }
+  .padd {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .pleft {
+    padding-left: 0px;
+  }
+  #about {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .content,
+  .provide,
+  #cards,
+  #about,
+  #pad {
+    padding-top: 20px;
+  }
+  .download {
+    padding-bottom: 20px;
+  }
+  .content,
+  .cream {
+    padding-bottom: 20px;
+  }
+  .food1,
+  .card {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ps20,
+  .foot {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .foo1 {
+    padding-right: 20px;
+  }
+  .provide,
+  main,
+  #cards,
+  .tres,
+  #home {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #home {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 1023px) {
+  .pic {
+    object-position: calc(2 / 3 * 100%);
+    height: 25em;
+  }
+}
+@media (max-width: 1400px) {
+  .content,
+  .trescards,
+  .food,
+  .download {
+    padding-left: 20px;
+  }
+  .pic {
+    width: 100%;
+  }
+  #foods {
+    width: 100%;
+  }
 }

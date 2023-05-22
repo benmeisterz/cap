@@ -11,15 +11,14 @@
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- <script src="index.js" defer></script> -->
-
+    <script src="index.js" defer></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <div class="nav">
@@ -77,7 +76,7 @@
       </div>
     </hero>
 
-    <main data-aos="fade-right">
+    <main>
       <div class="container" id="about">
         <div class="row">
           <div class="box1 col-12 col-md-6 col-lg-6" id="mainleft">
@@ -112,7 +111,7 @@
       </div>
     </main>
 
-    <section class="provide" id="services" data-aos="fade-left">
+    <section class="provide" id="services">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-10 col-lg-6 padd">
@@ -128,7 +127,7 @@
       </div>
     </section>
 
-    <div class="container" id="cards" data-aos="fade-up">
+    <div class="container" id="cards">
       <div class="row">
         <div class="col-12 col-md-4 col-lg-4">
           <div class="card">
@@ -172,7 +171,7 @@
       </div>
     </div>
 
-    <section class="food" data-aos="zoom-out">
+    <section class="food">
       <div class="container">
         <div class="row">
           <div class="food1 col-12 col-md-6 col-lg-7 pright"></div>
@@ -203,7 +202,8 @@
       </div>
     </section>
 
-    <section class="target" data-aos="zoom-up">
+    <div class="padded">
+    <section class="target">
       <div class="container-fluid">
         <div class="row">
           <div class="box2 col-12 col-md-12 col-lg-12 center p106 flex padd">
@@ -220,7 +220,7 @@
       </div>
     </section>
 
-    <section data-aos="fade-up">
+    <section>
       <div class="container-fluid cream">
         <div class="container p0 tres">
           <div class="row">
@@ -268,7 +268,7 @@
       </div>
     </section>
 
-    <section class="download" data-aos="slide-right">
+    <section class="download">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 col-lg-6 down pright">
@@ -347,10 +347,7 @@
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init({
-        offset: 300,
-        duration: 1000,
-      })
+      AOS.init()
     </script>
   </body>
 </html>
