@@ -14,9 +14,6 @@
   box-sizing: border-box;
 }
 
-/* body {
-  overflow-x: hidden;
-} */
 html {
   scroll-behavior: smooth;
 }
@@ -780,6 +777,9 @@ footer > p {
   .card {
     margin-top: 20px;
   }
+  body {
+    overflow-x: hidden;
+  }
 }
 
 @media (min-width: 768px) {
@@ -803,6 +803,7 @@ footer > p {
     margin-top: 0px;
   }
 }
+
 @media (max-width: 1023px) {
   .pic {
     object-position: calc(2 / 3 * 100%);
