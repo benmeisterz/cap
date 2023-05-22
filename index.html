@@ -79,7 +79,7 @@
     <main>
       <div class="container" id="about">
         <div class="row">
-          <div class="box1 col-12 col-md-6 col-lg-6" id="mainleft">
+          <div class="box1 col-12 col-md-6 col-lg-6" id="mainleft" data-aos="fade-right">
             <div class="box">strategy to attract customers</div>
             <h2>
               Always innovate so as not <br />
@@ -106,12 +106,12 @@
               option.
             </p>
           </div>
-          <div class="main2 col-12 col-md-6 col-lg-6 flex pright"></div>
+          <div class="main2 col-12 col-md-6 col-lg-6 flex pright" data-aos="fade-left"></div>
         </div>
       </div>
     </main>
 
-    <section class="provide" id="services">
+    <section class="provide" id="services" data-aos="fade-right">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-10 col-lg-6 padd">
@@ -120,14 +120,11 @@
               Suggestions And <span>Input From Consumers</span>
             </h2>
           </div>
-          <!-- <div class="col-12 col-md-2 col-lg-6 relative" id="see">
-            <p>See more ></p>
-          </div> -->
         </div>
       </div>
     </section>
 
-    <div class="container" id="cards">
+    <div class="container" id="cards" data-aos="fade-up">
       <div class="row">
         <div class="col-12 col-md-4 col-lg-4">
           <div class="card">
@@ -174,8 +171,8 @@
     <section class="food">
       <div class="container">
         <div class="row">
-          <div class="food1 col-12 col-md-6 col-lg-7 pright"></div>
-          <div class="col-12 col-md-6 col-lg-5 ps20 pright">
+          <div class="food1 col-12 col-md-6 col-lg-7 pright" data-aos="fade-right"></div>
+          <div class="col-12 col-md-6 col-lg-5 ps20 pright" data-aos="fade-left">
             <h1>Delicious <span>Food</span></h1>
             <p>
               Savor our restaurant's mouthwatering cuisine. Discover a tantalizing array of flavors
@@ -202,7 +199,6 @@
       </div>
     </section>
 
-    <div class="padded">
     <section class="target">
       <div class="container-fluid">
         <div class="row">
@@ -347,7 +343,10 @@
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init()
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      })
     </script>
   </body>
 </html>
